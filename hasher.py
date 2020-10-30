@@ -18,4 +18,5 @@ word = input('Enter Word to hash: ')
 
 hash_object = hashlib.md5(word.encode())
 print(hash_object.hexdigest())
-
+print("")
+input("Press enter to exit")
